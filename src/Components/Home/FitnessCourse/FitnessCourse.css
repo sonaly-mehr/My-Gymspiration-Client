@@ -1,0 +1,63 @@
+.fitness-container{
+    background-image: url('../../../img/running.jpg');
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    position: relative;
+}
+.fitness-container::before{
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    top:0;left:0;right:0;bottom: 0;
+
+}
+.fitness-description{
+    position: relative;
+    z-index: 12;
+    color: #fff
+}
+.fitness-description h4{
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 700;
+}
+.fitness-description h4:after{
+    content: '';
+    position: absolute;
+    width: 5%;
+    height: 2px;
+    background-color: #DD5552;
+    top: 14%;
+    right: 53%;
+
+}
+.fitness-description p{
+    font-weight: 600;
+    font-size: 21px;
+    width: 57%;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+.fitness-description button{
+    border: none;
+    background: #DD5552;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 12px 29px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 480px){
+    .fitness-description p{
+        width:90%;
+    }
+    .fitness-description h4:after{
+        top: 23%;
+        width: 15%;
+        right: 50%;
+    }
+}

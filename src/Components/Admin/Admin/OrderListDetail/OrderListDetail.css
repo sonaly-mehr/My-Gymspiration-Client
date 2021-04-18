@@ -1,0 +1,25 @@
+.Orders{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 13px;
+}
+.Orders span{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 22px;
+}
+.order-email{
+    margin-left: 9%;
+    width: 230px;
+}
+.user-name{
+    margin-left: 2%;
+    width: 130px;
+}
+.service-name{
+    width: 240px;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+.visa{}

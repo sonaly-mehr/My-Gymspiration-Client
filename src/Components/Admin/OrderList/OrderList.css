@@ -1,0 +1,22 @@
+.order-list-container{
+    width: 290%;
+    margin-left: 122%;
+    margin-top: -105%;
+    padding: 30px;
+}
+.order-list-container h4{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 23px;
+}
+.order-details{}
+.order-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    background: #F5F6FA;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.order-header span{}

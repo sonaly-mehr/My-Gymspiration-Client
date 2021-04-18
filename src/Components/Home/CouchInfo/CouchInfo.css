@@ -1,0 +1,24 @@
+.single-trainer{}
+.single-trainer img{
+    max-width: 100%;
+    height: 45vh;
+}
+.single-trainer h6{
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 22px;
+    margin-bottom: 7px;
+    
+}
+.single-trainer span{
+    color: #797979;
+    font-weight: 600;
+
+}
+
+@media only screen and (max-width: 480px){
+    .single-trainer{
+        margin-left: 25%;
+    }
+}

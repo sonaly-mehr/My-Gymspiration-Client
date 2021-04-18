@@ -1,0 +1,33 @@
+.couches-container{
+    padding:100px 0;
+}
+.couches-container h4{
+    text-align: left;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 17px;
+}
+.couches-container h4::before{
+    content: '';
+    position: absolute;
+    background: #DD5552;
+    width: 56px;
+    height: 2px;
+    left: 20%;
+    top: 55%
+}
+.couches-container p{
+    text-align: left;
+    color: #797979;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 480px){
+    .couches-container h4::before{
+        left:55%;
+    }
+}

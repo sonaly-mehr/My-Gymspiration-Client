@@ -1,0 +1,33 @@
+.service-container{
+    padding: 80px 0;
+    background-color: #F4F4F4;
+}
+.service-container h4{
+    text-align: left;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 17px;
+}
+.service-container h4::before{
+    content: '';
+    position: absolute;
+    background: #DD5552;
+    width: 56px;
+    height: 2px;
+    left: 20%;
+    top: 55%
+    
+}
+.service-container p{
+    color: #797979;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+}
+@media only screen and (max-width: 480px){
+    .service-container h4::before{
+        left: 55%;
+    }
+}

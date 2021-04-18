@@ -1,0 +1,19 @@
+.manage-service{
+    display: flex;
+    justify-content: space-evenly;
+}
+.manage-service h6{
+    width: 180px;
+    margin: 10px 0;
+    margin-left: -16%;
+}
+.manage-service span{}
+.manage-service button{
+   background: red;
+   border: none;
+   margin-bottom: 17px;
+   color: #fff;
+   padding: 1px 5px;
+   border-radius: 5px;
+   margin-left: 35%;
+}

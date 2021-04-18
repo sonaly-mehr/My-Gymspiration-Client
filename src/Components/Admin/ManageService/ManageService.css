@@ -1,0 +1,44 @@
+.manage-service-wrap{
+    width: 290%;
+    margin-left: 122%;
+    margin-top: -105%;
+}
+.manage-service-wrap h4{
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.manage-service-table{
+    background: #ECEDF1;
+    width: 85%;
+    padding: 10px 26px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+}
+.manage-service-table span{
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 480px){
+    .manage-product-wrap{
+        margin-top: -310%;
+    }
+    .manage-product-table{
+        margin-left: -7%;
+    }
+    .manage-product h6{
+        margin-left: -15%;
+        font-size: 13px;
+    }
+    .manage-product h6.price {
+        padding-left: 7%;
+    }
+    .manage-product button{
+        position: relative;
+        left: -23%;
+    }
+    .manage-product h6.weight {
+        margin-left: -8%;}
+  }

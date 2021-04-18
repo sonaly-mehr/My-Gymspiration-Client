@@ -1,0 +1,47 @@
+.header-main{
+    text-align: left;
+    padding: 17% 0%;
+    z-index: 10;
+    position: relative;
+}
+.header-main h3{
+    color: #fff;
+    font-family: Courgette;
+    font-style: italic;
+    font-size: 57px;
+    font-weight: 600;
+    margin: 0;
+}
+.header-main h3 span{
+    color: #DD5552;
+}
+.header-main h2{
+    font-size: 53px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    margin-top: -7px;
+}
+.header-main p{
+    color: #fff;
+    width: 49%;
+    margin-top: 15px;
+    margin-bottom: 36px;
+}
+.header-main button{
+    border: none;
+    background: #DD5552;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 12px 29px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 480px){
+    .header-main p{
+        width: 80%;
+    }
+}

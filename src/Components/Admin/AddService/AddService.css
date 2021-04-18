@@ -1,0 +1,44 @@
+.add-service-container{
+    width: 290%;
+    margin-left: 122%;
+    margin-top: -105%;
+    background: #F4F7FC;
+    padding: 30px;
+}
+.add-product-form h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.single-input input{
+    width: 68%;
+    padding: 11px 14px;
+    margin-top: 29px;
+    border: none;
+    border-radius: 10px
+}
+.submit input{
+    background: #F93779;
+    padding: 9px 40px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 26px;
+}
+.img-input{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px){
+    .input-box{
+        display: inline-block;
+    }
+    .add-product-wrap{
+        margin-top: -310%;
+    }
+    .submit{
+        margin-right: 70%;
+    }
+  }

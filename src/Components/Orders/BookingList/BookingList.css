@@ -1,0 +1,32 @@
+.Booking-summary{
+    width: 290%;
+    margin-left: 122%;
+    margin-top: -60%;
+    background: #F4F7FC;
+    padding: 30px;
+    }
+.Booking-summary h4{
+    font-size: 25px;
+    font-weight: 700;
+} 
+.Booking-summary h6.bookings{
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    color: cadetblue;
+}
+.Booking-summary h6{
+    font-weight: 600;
+    color: gray
+}
+.Booking-summary h3{}
+.Booking-summary h5{
+    font-weight: 700;
+    font-size: 20px;
+    color: cadetblue;
+}
+.Booking-summary span{
+    color: darkgray;
+    font-size: 14px;
+    font-weight: 600;
+}

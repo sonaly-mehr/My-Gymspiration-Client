@@ -1,0 +1,36 @@
+.single-testimonial-info{
+    text-align: center;
+    padding-top: 80px;
+}
+.single-testimonial-info p{
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    width: 98%;
+    display: inline-block;
+    margin-bottom: 18px
+}
+.single-testimonial-info h5{
+    font-weight: 600;
+}
+.single-testimonial-info span{
+    color: #EE8F33;
+    display: inline-block;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.single-testimonial-info .star{
+    margin: 2px;
+    color: #EE8F33
+}
+.quote{
+    position: relative;
+    left: -48%;
+    top: 8%;
+    color: #EE8F33;
+    font-size: 22px;
+}

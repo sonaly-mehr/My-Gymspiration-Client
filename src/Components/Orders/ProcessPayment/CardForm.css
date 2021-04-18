@@ -1,0 +1,17 @@
+button.payment-submit{
+    background: #F63678;
+    color: #fff;
+    border: none;
+    padding: 8px 44px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 60px;
+    margin-left: 0%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.CardBrandIcon-container {
+    width: 32.5em;
+}

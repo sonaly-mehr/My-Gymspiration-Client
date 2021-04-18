@@ -1,0 +1,45 @@
+.order-section{
+    margin-top: -40px;
+}
+.order-panel{
+    background-color: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: relative;
+    width: 24%;
+}
+.order-panel::before{
+    content: "";
+    position: absolute;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    bottom: 0;
+    left: -12rem;
+    right: 100%;}
+.order-menu{
+    margin-left: -39px;
+}
+.order-menu ul{
+    list-style: none;
+    margin-top:40px;
+    display: block;
+    padding-top: 30%;
+}
+.order-menu ul li{
+    padding:20px 0;
+}
+.order-menu ul li .menu-icon{
+    color: #fff;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.order-menu ul li a{
+    text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+}
+.order-menu ul li a:hover{
+    color:#DD5552;
+}
