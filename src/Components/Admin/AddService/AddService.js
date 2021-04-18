@@ -18,7 +18,7 @@ const AddService = () => {
             price: data.price,
             imageURL: imageURL
         };
-        const url = `http://localhost:5000/admin`;
+        const url = `https://salty-caverns-62513.herokuapp.com/admin`;
 
 
         fetch(url, {

@@ -11,7 +11,7 @@ const MakeAdmin = () => {
         const postmanData = {
             email: data.email
         };
-        const url = `http://localhost:5000/postman`;
+        const url = `https://salty-caverns-62513.herokuapp.com/postman`;
 
 
         fetch(url, {

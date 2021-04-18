@@ -5,7 +5,7 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 
 const ManageServiceDetail = ({sr}) => {
     const deleteProduct = (id) => {
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://salty-caverns-62513.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

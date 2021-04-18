@@ -12,7 +12,7 @@ const Review = () => {
             designation: data.designation,
             description: data.description
         };
-        const url= `http://localhost:5000/user`;
+        const url= `https://salty-caverns-62513.herokuapp.com/user`;
 
 
         fetch(url, {

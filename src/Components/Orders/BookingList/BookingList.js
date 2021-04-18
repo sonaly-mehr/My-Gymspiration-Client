@@ -8,7 +8,7 @@ const BookingList = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
-        fetch('http://localhost:5000/booking?email=' + loggedInUser.email)
+        fetch('https://salty-caverns-62513.herokuapp.com/booking?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setBookings(data))
     })

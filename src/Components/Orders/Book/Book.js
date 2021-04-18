@@ -22,7 +22,7 @@ const Book = () => {
     const [userInfo, setUserInfo] = useState(null);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/service/${serviceId}`)
+        fetch(`https://salty-caverns-62513.herokuapp.com/service/${serviceId}`)
             .then(res => res.json())
             .then(data => setServiceKey(data))
     }, [serviceId])
@@ -44,7 +44,7 @@ const Book = () => {
             servicePrice: serviceKey.price,
             paymentId
         };
-        fetch('http://localhost:5000/addBooking', {
+        fetch('https://salty-caverns-62513.herokuapp.com/addBooking', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newBooking)
