@@ -7,5 +7,5 @@ Project Description:
 # user can see their booking list and can give review as well. The review part is dynamically post in the testimonial section.
 # For admin section admin can add delete service. view users order history etc.
 
-Live Link: 
+Live Link:  https://thirsty-hermann-9697cb.netlify.app/
 
